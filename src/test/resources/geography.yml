@@ -1,0 +1,25 @@
+geography:
+  continents:
+    AMERICA: [USA]
+    EUROPE: [ITALY, SPAIN, GERMANY]
+
+  # results to the same mapping even though different types of syntax are used
+  countries:
+    USA:
+    - city: NEW_YORK
+      hint: "Knicks"
+    - city: BOSTON
+      hint: "Celtics"
+    - city: LOS_ANGELES
+      hint: "Lakers"
+    - city: CHICAGO
+      hint: "Bulls"
+    ITALY:
+    - city: MILAN
+      hint: "Duomo"
+    - city: ROME
+      hint: "Colosseum"
+    - city: VENICE
+      hint: "Grand Canal"
+    SPAIN: [{city: MADRID, hint: "Real"}, {city: BARCELONA, hint: "Gaudi"}]
+    GERMANY: [{city: BERLIN, hint: "Wall"}]

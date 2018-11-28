@@ -1,0 +1,6 @@
+phonebook:
+  contacts:
+  - name: "Home"
+    number: "+301234567890"
+  - name: "Office"
+    number: "+301234543210"
